@@ -9,11 +9,15 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class MyGdxGame extends ApplicationAdapter {
 	SpriteBatch batch;//область адресов для отрисовки и управления объектами
 	Background bg;
+	Bird bird;
+	Obstacles obstacles;
 	
 	@Override
 	public void create () { //метод который вызывется единажды, производится подгрузка элементов, первичный расчет математики
 		batch = new SpriteBatch(); //создается батч
 		bg = new Background();
+		bird = new Bird();
+		obstacles = new Obstacles();
 	}
 
 	@Override
@@ -23,12 +27,16 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);//	использование цвета
 		batch.begin();
 		bg.render(batch);
+		bird.render(batch);
+		obstacles.render(batch);
 		batch.end();
 	}
 
 	public void update()
     {
         bg.update();
+        bird.update();
+        obstacles.update();
     }
 
 	@Override
