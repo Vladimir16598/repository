@@ -1,5 +1,6 @@
 package com.mygdx.game;
 
+import java.util.Random;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -15,14 +16,16 @@ public class Obstacles {
         {
             position = pos;
             speed = 2;
+            offset = new Random().nextInt(250);
 
-        }    
+        }
         public void update()
         {
             position.x -= speed;
             if(position.x < - 50)
             {
                 position.x = 800;
+                offset = new Random().nextInt(250);
             }
         }
     }
@@ -50,7 +53,7 @@ public class Obstacles {
         for(int i=0; i < obs.length; i++)
         {
             batch.draw(txt, obs[i].position.x, obs[i].position.y);
-            batch.draw(txt, obs[i].position.x, obs[i].position.y + betweenDistance + txt.getHeight());
+            batch.draw(txt, obs[i].position.x, obs[i].position.y + betweenDistance + txt.getHeight()-obs[i].offset);
         }
     }
     public void update() {
