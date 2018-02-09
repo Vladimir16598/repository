@@ -25,10 +25,11 @@ public class Obstacles {
             if(position.x < - 50)
             {
                 position.x = 800;
-                offset = new Random().nextInt(250);
+               // offset = new Random().nextInt(250);
             }
         }
     }
+
 
     WallPair[] obs;
     Texture txt;
