@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kz.teymur.project.student:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kz_teymur_project_student_jar</output-path>
+    <root id="archive" name="kz.teymur.project.student.jar">
+      <element id="module-output" name="kz.teymur.project.student" />
+      <element id="extracted-dir" path="C:/Program Files/MySQL/Connector.J 5.1/mysql-connector-java-5.1.36-bin.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mysql-connector-java-5.1.36-bin" />
+    </root>
+  </artifact>
+</component>

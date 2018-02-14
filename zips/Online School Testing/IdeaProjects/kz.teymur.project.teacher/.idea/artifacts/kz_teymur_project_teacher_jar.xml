@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kz.teymur.project.teacher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kz_teymur_project_teacher_jar</output-path>
+    <root id="archive" name="kz.teymur.project.teacher.jar">
+      <element id="library" level="project" name="mysql-connector-java-5.1.36-bin" />
+      <element id="module-output" name="kz.teymur.project.teacher" />
+    </root>
+  </artifact>
+</component>
