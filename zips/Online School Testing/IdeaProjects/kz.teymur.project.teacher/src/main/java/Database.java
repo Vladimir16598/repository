@@ -11,7 +11,7 @@ public class Database {
 
     private static final String URL = "jdbc:mysql://localhost:3306/kz.project.database";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "";
 
     private static final String INSERT_NEW_USER = "INSERT INTO users(name, surname, login, password, email, class_number, class_letter, status, session) " +
             "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);";

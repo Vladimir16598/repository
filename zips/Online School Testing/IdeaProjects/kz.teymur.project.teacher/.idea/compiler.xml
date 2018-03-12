@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kz.teymur.project.teacher" target="1.5" />
+      <module name="kz.teymur.project.teacher" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
