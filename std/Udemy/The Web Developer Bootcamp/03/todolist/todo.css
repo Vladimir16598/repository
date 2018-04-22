@@ -1,0 +1,18 @@
+body {
+   background: darkcyan;
+}
+h1 {
+  background: lightcyan;
+
+  border: 2px solid cyan;
+}
+li {
+  border: 1px solid cyan;
+}
+#special {
+  border: 3px solid lightcyan;
+}
+.spec {
+  background-color: darkslateblue;
+  text-decoration: line-through;
+}

@@ -1,0 +1,22 @@
+body {
+   background: darkcyan;
+  /* background: url(https://pre00.deviantart.net/f3cd/th/pre/i/2011/121/8/a/drawn_wood_grain_texture_by_german_popsicle-d3fdjmd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1 {
+  background: lightcyan;
+  /* border-color: cyan;
+  border-width: 5px;
+  border-style: solid; */
+  border: 2px solid cyan;
+}
+    /* h1 {
+      color: lightslategray;
+    }
+    li {
+      color: gold;
+    }
+    h4 {
+      color: lawngreen;
+    } */
