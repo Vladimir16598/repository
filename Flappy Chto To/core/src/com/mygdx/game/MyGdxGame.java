@@ -7,41 +7,27 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class MyGdxGame extends ApplicationAdapter {
-	SpriteBatch batch;//область адресов для отрисовки и управления объектами
-	Background bg;
-	Bird bird;
-	Obstacles obstacles;
+	SpriteBatch batch;
+	Texture img;
 	
 	@Override
-	public void create () { //метод который вызывется единажды, производится подгрузка элементов, первичный расчет математики
-		batch = new SpriteBatch(); //создается батч
-		bg = new Background();
-		bird = new Bird();
-		obstacles = new Obstacles();
+	public void create () {
+		batch = new SpriteBatch();
+		img = new Texture("badlogic.jpg");
 	}
 
 	@Override
 	public void render () {
-	    update();
-		Gdx.gl.glClearColor(1, 1, 1, 1);//создание цвета
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);//	использование цвета
+		Gdx.gl.glClearColor(1, 0, 0, 1);
+		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-		bg.render(batch);
-		bird.render(batch);
-		obstacles.render(batch);
+		batch.draw(img, 0, 0);
 		batch.end();
 	}
-
-	public void update()
-    {
-        bg.update();
-        bird.update();
-        obstacles.update();
-    }
-
+	
 	@Override
-	public void dispose () { //очистка
+	public void dispose () {
 		batch.dispose();
-
+		img.dispose();
 	}
 }

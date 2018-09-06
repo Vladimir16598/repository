@@ -98,6 +98,7 @@ public class MainMenu {
         resultWindowButton.setFont(font);
         resultWindowButton.setFocusable(false);
 
+
         statsWindowButton = new JButton("Stats");
         statsWindowButton.addActionListener(eHandler);
         statsWindowButton.setFont(font);

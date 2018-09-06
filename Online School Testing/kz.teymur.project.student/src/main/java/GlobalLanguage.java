@@ -27,17 +27,17 @@ public class GlobalLanguage {
         TEST_REFRESH_BUTTON = new String[]{"Refresh table", "Обновить таблицу"};
 
         //Feedback Window
-        FEEDBACK_WINDOW = new String[]{"<html>If you have any suggestions you can send your ideas to <br><center>teymur@live.ru</center></html>",
-        "<html>Если у вас есть какие-либо предложения, вы можете отправить их на <br><center>teymur@live.ru</center></html>"};
+        FEEDBACK_WINDOW = new String[]{"<html>If you have any suggestions you can send your ideas to <br><center>kimvladimir007@gmail.com</center></html>",
+        "<html>Если у вас есть какие-либо предложения, вы можете отправить их на <br><center>kimvladimir007@gmail.com</center></html>"};
 
         //Result Window
         RESULT_WINDOW = new String[]{"Refresh table", "Обновить таблицу"};
 
         //Main Window
         MAIN_WINDOW = new String[]{"<html>Hello, it is second version of program. With my program<br> you can provide some test with students " +
-                "without wasting<br> any resources. Please check new updates at twitter <br> <center>@shaykemelov</center></html>",
+                "without wasting<br> any resources. Please check new updates at twitter <br> <center>@vladimir16598</center></html>",
                 "<html>Здравствуйте, это вторая версия программы. С моей программой вы <br> можете проводить тесты со студентами, " +
-                        "без траты каких-либо ресурсов.<br> Пожалуйста проверьте доступность новой версии программы в twitter <center>@shaykemelov</center></html>"};
+                        "без траты каких-либо ресурсов.<br> Пожалуйста проверьте доступность новой версии программы в twitter <center>@vladimir16598</center></html>"};
 
         NEXT_QUESTION = new String[]{"Next", "След."};
 

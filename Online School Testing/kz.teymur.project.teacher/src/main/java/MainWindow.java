@@ -1,9 +1,9 @@
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
+
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by iww on 18.01.2015.
- */
 public class MainWindow {
     private static JPanel jPanel;
 
@@ -16,11 +16,13 @@ public class MainWindow {
 
         jPanel = new JPanel();
         jPanel.setFont(font);
-
-        jLabel = new JLabel("<html>Hello, it is second version of program. With my program<br> you can provide some test with students" +
-                "without wasting<br> any resources. Please check new updates at twitter <br> <center>@shaykemelov</center></html>");
-        jPanel.add(jLabel);
+        WebView browser = new WebView();
+        WebEngine webEngine = browser.getEngine();
+        webEngine.load("http://mySite.com");
+        jPanel.add(WebView);
         jPanel.setBorder(BorderFactory.createEtchedBorder());
+
+
     }
 
     public static JPanel getJPanel(){

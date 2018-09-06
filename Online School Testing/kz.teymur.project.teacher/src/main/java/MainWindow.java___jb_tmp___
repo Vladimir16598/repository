@@ -1,0 +1,30 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class MainWindow {
+    private static JPanel jPanel;
+
+    private static JLabel jLabel;
+
+    private static Font font;
+
+    MainWindow(){
+        font = new Font("Verdana", Font.PLAIN, 10);
+
+        jPanel = new JPanel();
+        jPanel.setFont(font);
+
+        jLabel = new JLabel("<html>Hello, it is second version of program. With my program<br> you can provide some test with students" +
+                "without wasting<br> any resources. Please check new updates at twitter <br> <center>@vladimir16598</center></html>");
+        jPanel.add(jLabel);
+        jPanel.setBorder(BorderFactory.createEtchedBorder());
+
+        https://image.maps.cit.api.here.com/mia/1.6/mapview
+        ?app_id={YOUR_APP_ID}
+                &app_code={YOUR_APP_CODE}
+    }
+
+    public static JPanel getJPanel(){
+        return jPanel;
+    }
+}

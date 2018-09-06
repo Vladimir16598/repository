@@ -25,6 +25,7 @@ public class HelpWindow {
                 + "6. Go to Stats tab, and give your ip address to students.<br>"
                 + "7. When students connect to you, they will get the test.<br>"
                 + "8. When they are finished, you will see the results in Results tab.<br>");
+
         jLabel.setFont(font);
 
         jPanel.add(jLabel);

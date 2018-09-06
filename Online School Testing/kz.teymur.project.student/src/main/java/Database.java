@@ -14,7 +14,7 @@ public class Database {
 
     private static final String URL = "jdbc:mysql://localhost:3306/kz.project.database";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "";
 
     private static final String GET_LIST_TESTS = "SELECT * FROM tests WHERE status = ? AND class = ?;";
     private static final String GET_QUESTIONS = "SELECT * FROM questions WHERE id = ?;";

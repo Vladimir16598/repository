@@ -39,7 +39,7 @@ public class MainMenu {
 
         font = new Font("Verdana", Font.PLAIN, 10);
 
-        jframe = new JFrame("Student Online Testing");
+        jframe = new JFrame("Totally Spies Tester");
         jframe.setLayout(null);
         jframe.setSize(607, 398);
         jframe.setFont(font);
